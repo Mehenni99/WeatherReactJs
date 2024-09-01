@@ -1,0 +1,76 @@
+
+@import "src/assets/scss/variables";
+
+div.container{
+    margin-top: 1rem;
+    display: flex;   
+    text-align: center;
+    align-items: center;
+    background-color: rgba(98, 152, 212, 0.7);
+    color:#ffffff;
+
+}
+.title{
+    font-size: 2rem;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    gap:calc($weather-infos-gap - 4%);
+  
+    
+}
+.weather_infos{
+    align-items: stretch;
+    min-height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.temperature{
+    
+    font-size: 3rem;
+   
+}
+
+.separator{
+    margin-top: 1rem;
+    border: 1px solid rgba(240, 243, 247,0.5);
+}
+
+.infos{
+  display:flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 25px;
+  width: 50vw;
+  background-color: rgba(51, 68, 141, 0.7);
+gap: calc($weather-infos-gap + 0.5%);
+margin-top: 2rem;
+margin-bottom: 1rem;
+.sunrise{
+    border-right:1px solid white;
+    padding-right: 1rem;
+}
+
+
+.thermo{
+    border-left:1px solid white;
+    padding-left: 1rem;
+
+}
+.humidity{
+    border-right:1px solid white;
+    border-left:1px solid white;
+    padding-right: 2rem;  
+    padding-left: 2rem;
+
+    
+}
+   
+
+
+}
+

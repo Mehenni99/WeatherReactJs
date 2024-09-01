@@ -1,0 +1,19 @@
+@import "src/assets/scss/variables";
+.searchContainer{
+    margin: 2rem auto 0;
+    display: flex;
+    gap: $weather-infos-gap;
+  
+}
+
+.searchInput{
+    background-color: rgba(239, 237, 245, 0.8);
+    border: none;
+    width: 100%;
+    border-radius: 0;
+   &:focus{
+    background-color: rgba(168, 143, 228, 0.9);
+
+   }
+ 
+}
